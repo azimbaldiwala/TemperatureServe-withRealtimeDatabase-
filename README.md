@@ -12,6 +12,7 @@ I have also made a flask webserver to view the data or download the data.
 #### How to use the script.
 
 After uploading '.ino' code to your device [make sure to change wifi credentials and pin number as per your device]
+
 1] To run the webserver run 'app.py'. [You will be able to see the web page displaying current room temp]
 To download data, Go to the navbar and follow the user-interface.
 
