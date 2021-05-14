@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% block body %}
+<center>
+
+<br>
+    <br>
+    <br>
+<form action="/download_data_send"  method="post">
+
+      <label  class="leading-7 text-sm text-gray-600">Select Year: </label>
+          <select id="year"  name="year">
+              <option value="2021">2021</option>
+              <option value="2021">2022</option>
+              <option value="2021">2023</option>
+              <option value="2021">2024</option>
+              <option value="2021">2025</option>
+          </select>
+
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="inlineCheckbox1" value="01">
+  <label class="form-check-label" for="inlineCheckbox1">January</label>
+    </div>
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="inlineCheckbox2" value="02">
+  <label class="form-check-label" for="inlineCheckbox2">February</label>
+    </div>
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="inlineCheckbox3" value="03">
+  <label class="form-check-label" for="inlineCheckbox3">March</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" name="inlineCheckbox4" value="04">
+  <label class="form-check-label" for="inlineCheckbox3">April</label>
+    </div>
+
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox5" name="inlineCheckbox5" value="05">
+  <label class="form-check-label" for="inlineCheckbox3">May</label>
+    </div>
+
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox6" name="inlineCheckbox6" value="06">
+  <label class="form-check-label" for="inlineCheckbox3">June</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox7" name="inlineCheckbox7" value="07">
+  <label class="form-check-label" for="inlineCheckbox3">July</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox8" name="inlineCheckbox8" value="08">
+  <label class="form-check-label" for="inlineCheckbox3">August</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox9" name="inlineCheckbox9" value="09">
+  <label class="form-check-label" for="inlineCheckbox3">September</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox10" name="inlineCheckbox10" value="10">
+  <label class="form-check-label" for="inlineCheckbox3">October</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox11" name="inlineCheckbox11" value="11">
+  <label class="form-check-label" for="inlineCheckbox3">November</label>
+    </div>
+
+     <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox12" name="inlineCheckbox12" value="12">
+  <label class="form-check-label" for="inlineCheckbox3">December</label>
+    </div>
+
+  <button type="submit" class="btn btn-secondary btn-lg">Download</button>
+
+</form>
+
+
+</center>
+
+{% endblock %}
+
