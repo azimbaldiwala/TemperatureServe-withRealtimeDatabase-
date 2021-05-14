@@ -16,4 +16,4 @@ After uploading '.ino' code to your device [make sure to change wifi credentials
 1] To run the webserver run 'app.py'. [You will be able to see the web page displaying current room temp]
 To download data, Go to the navbar and follow the user-interface.
 
-2] To collect data and store it to the database run  'scraper.py' [Default time interval is 120 sec you can change it]
+2] To collect data and store it to the database run  'dump_to_database.py' [Default time interval is 120 sec you can change it]
